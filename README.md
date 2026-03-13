@@ -56,13 +56,13 @@ Check out the app live here:
    streamlit run app.py
 
 ***🧠 The "Brain" (The Prompt)***
+
 The engine uses a specialized system prompt to ensure the LLM returns only raw SQL code:
 
 "You are an expert SQL assistant. Use the following database schema information: {schema_info}. Convert this natural language question into a valid SQL query. Return ONLY the raw SQL query. No explanation, no backticks, no Markdown formatting."
 
 
 ***👤 Author***
-```bash
 Danish Jain
 Aspiring Python Developer | Machine Learning Enthusiast
 
